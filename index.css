@@ -1,0 +1,146 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin: auto;
+}
+.header_content {
+  border: 1px solid black;
+  padding: auto;
+  background-color: aqua;
+  color: red;
+  width: 100%;
+}
+
+.header_content .header_item0 h1 {
+  text-decoration: underline;
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+}
+
+.header_content .header_item0 img {
+  align-items: left;
+  margin-left: 1200px;
+  margin-bottom: 30px;
+}
+
+.header_content .header_item ul li {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600px;
+  color: green;
+  margin: 10px 20px;
+}
+
+.intro img {
+  width: 40%;
+  height: 40%;
+}
+
+.intro .intro_1 h1 {
+  color: red;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 32px;
+}
+
+.intro_item img {
+  width: 100%;
+  display: block;
+}
+/* FOOTER */
+.footer {
+  padding: 50px 0;
+  background-color: black;
+  color: white;
+}
+
+.footer_main {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.footer_item {
+  width: 25%;
+  padding: 0 20px;
+}
+
+.footer_item h3 {
+  font-size: 1.3rem;
+  color: #ff0e83;
+  margin-bottom: 1rem;
+}
+
+.footer_item p {
+  font-size: 0.8rem;
+  line-height: 28px;
+  padding-bottom: 1rem;
+}
+
+.footer_socials i {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-right: 10px;
+  border: 1px solid white;
+  transition: all 0.5s;
+}
+
+.footer_socials i:hover {
+  color: #ff0e83;
+  border-color: #ff0e83;
+}
+
+.footer_time {
+  display: flex;
+  justify-content: space-between;
+  border: 1px dotted white;
+}
+
+.footer_time p {
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer_item .footer_sub input {
+  margin-bottom: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.footer_item .footer_sub input:focus {
+  outline: none;
+}
+
+.footer_item .footer_sub button {
+  padding: 7px 16px;
+  color: black;
+  border-color: #ff0e83;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.footer_item .footer_sub button:hover {
+  border-color: black;
+}
+
+.footer_copyright {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer_copyright span {
+  color: #ff0e83;
+}
